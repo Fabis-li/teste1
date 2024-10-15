@@ -95,6 +95,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://fabis-li.github.io/teste1/",
+            "repo": "https://github.com/Fabis-li/teste1.git"
+          }
         }
       }
     }
